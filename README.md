@@ -4,7 +4,7 @@
 
 This project is based on a **hypothetical B2B SaaS company** and demonstrates how cybersecurity risks can be translated into financial outcomes and security investment decisions. It models a specific third-party SaaS compromise, estimates annual financial exposure using a FAIR-inspired approach, evaluates five security controls, and provides an interactive Streamlit dashboard for exploring results and assumptions.
 
-> **Scope and disclosure:** This is an exploratory, educational model—not a production risk assessment or a forecast for a real company. Several probability, severity, control-effectiveness, and cost inputs are illustrative rather than empirically validated. Results cover **one cyberattack scenario**, not organization-wide cyber risk.
+> **Scope and disclosure:** This is an exploratory, educational model—not a production risk assessment or a forecast for a real company. Several probability, severity, control-effectiveness, and cost inputs are illustrative, but are informed by industry reports, published research, and publicly available cybersecurity evidence rather than chosen arbitrarily. These assumptions are intended to provide realistic modeling scenarios, not empirically validated estimates for a specific organization. Results cover **one cyberattack scenario**, not organization-wide cyber risk.
 
 ## Business question
 
@@ -89,7 +89,7 @@ Interactive assumption experiments **do not automatically recalculate** the prec
 
 ## Methodology at a glance
 
-1. **Frequency:** Campaign arrivals follow `Poisson(λ = 3/year)`. Each campaign draws a success probability from `Beta(0.36, 4.48)` and then a Bernoulli outcome.
+1. **Frequency:** Campaign arrivals follow `Poisson(λ = 3/year)`. Each campaign draws a success probability of the focal firm being hit in the campaign from `Beta(0.36, 4.48)` and then a Bernoulli outcome.
 2. **Magnitude:** Successful incidents generate primary response, secondary response/planning, fines and judgments, and reputation-related losses.
 3. **Dependence:** A latent incident-severity factor and Gaussian-copula structure correlate selected loss drivers; calibrated logistic models determine conditional outcomes.
 4. **Annual aggregation:** Sum all successful incident losses in each simulated year, including zero-loss years.
@@ -116,8 +116,6 @@ python -m streamlit run app/dashboard.py
 ```
 
 Open the local URL shown by Streamlit (typically `http://localhost:8501`). To stop the server, press **Ctrl+C** in the terminal.
-
-> **Before publishing:** Confirm the final dependency versions in `requirements.txt` using the tested environment. The supplied documentation includes a dependency list, but does not assert that a clean-environment install has already passed.
 
 ### Expected layout
 
@@ -162,7 +160,7 @@ The dashboard reads precomputed outputs for the baseline charts and investment c
 
 - Numerical results are **simulation outputs**, not empirical loss forecasts.
 - Control efficacy and annual costs are **assumptions**, not vendor quotes.
-- Customer churn and other event probabilities are **illustrative targets**, not causal estimates.
+- Customer churn and other event probabilities are **illustrative but informed** by industry reports, published research, and publicly available evidence, rather than empirically validated causal estimates..
 - The investment objective focuses on **expected annual loss**; it does not optimize VaR/TVaR or account for compliance mandates, operational constraints, or other attack scenarios.
 - Monte Carlo seeds help reproducibility but do not establish external validity.
 - Some loss-parameter uncertainty estimates use a fitted response surface rather than full simulation for every parameter draw.
@@ -173,8 +171,7 @@ Potential extensions include real-world calibration of campaign rates and incide
 
 ## Project status
 
-**Modeling and dashboard development complete; documentation prepared.** Final clean-environment testing and GitHub publication are separate closeout tasks.
-
+**Modeling and dashboard development complete; documentation prepared.** 
 ---
 
 *This repository is an educational demonstration of FAIR-inspired cyber risk quantification. FAIR terminology is used descriptively; this project is not presented as an official FAIR certification or endorsement.*
