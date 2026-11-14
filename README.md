@@ -1,8 +1,8 @@
-# NovaFlow — FAIR-Based Cyber Risk Quantification
+# FAIR-Based Cyber Risk Quantification
 
 **Monte Carlo cyber loss modeling · Security investment optimization · Interactive decision-support dashboard**
 
-NovaFlow is a **hypothetical B2B SaaS company** used to demonstrate how cybersecurity risks can be translated into financial outcomes and security investment decisions. This project models a specific third-party SaaS compromise, estimates annual financial exposure using a FAIR-inspired approach, evaluates five security controls, and provides an interactive Streamlit dashboard for exploring results and assumptions.
+This project is based on a **hypothetical B2B SaaS company** and demonstrates how cybersecurity risks can be translated into financial outcomes and security investment decisions. It models a specific third-party SaaS compromise, estimates annual financial exposure using a FAIR-inspired approach, evaluates five security controls, and provides an interactive Streamlit dashboard for exploring results and assumptions.
 
 > **Scope and disclosure:** This is an exploratory, educational model—not a production risk assessment or a forecast for a real company. Several probability, severity, control-effectiveness, and cost inputs are illustrative rather than empirically validated. Results cover **one cyberattack scenario**, not organization-wide cyber risk.
 
@@ -21,7 +21,7 @@ The analysis connects:
 
 | Attribute | Assumption |
 |---|---|
-| Organization | NovaFlow, hypothetical U.S. B2B SaaS company |
+| Organization | A hypothetical U.S. B2B SaaS company |
 | Annual revenue | $900 million |
 | Employees | 3,200 |
 | Enterprise customers | 3,000 |
@@ -30,7 +30,7 @@ The analysis connects:
 | Contribution value of lost customer/deal | $210,000 (one-year horizon) |
 | Time horizon | One year |
 
-**Threat scenario:** Attackers compromise a third-party SaaS vendor, steal credentials or OAuth tokens, use that trusted access to reach NovaFlow's Salesforce CRM, and exfiltrate enterprise-customer data. The model captures **confidentiality losses only**; operational downtime and availability losses are excluded.
+**Threat scenario:** Attackers compromise a third-party SaaS vendor, steal credentials or OAuth tokens, use that trusted access to reach the focal firm's Salesforce CRM, and exfiltrate enterprise-customer data. The model captures **confidentiality losses only**; operational downtime and availability losses are excluded.
 
 ## Key results
 
@@ -122,7 +122,7 @@ Open the local URL shown by Streamlit (typically `http://localhost:8501`). To st
 ### Expected layout
 
 ```text
-novaflow-fair-crq/
+Fair-CRQ/
 ├── app/
 │   └── dashboard.py
 ├── config/

@@ -1,7 +1,7 @@
-# NovaFlow FAIR CRQ — Step 8A: Security Controls and Modeling Assumptions
+# FAIR CRQ — Step 8A: Security Controls and Modeling Assumptions
 
 **Status:** Proposed assumptions for exploratory modeling; not validated efficacy estimates.  
-**Scenario:** Compromised third-party SaaS vendor -> stolen OAuth credentials -> unauthorized Salesforce access -> exfiltration of NovaFlow enterprise-customer information. Confidentiality only; no outage.
+**Scenario:** Compromised third-party SaaS vendor -> stolen OAuth credentials -> unauthorized Salesforce access -> exfiltration of the focal firm's enterprise-customer information. Confidentiality only; no outage.
 
 ## 1. Objective and boundary
 
@@ -57,7 +57,7 @@ Use **common random numbers** (identical seeds and comparable simulation draws) 
 ## 7. Key assumptions and limitations
 
 1. Hypothetical firm and incident scenario; campaign arrival, per-campaign success and loss parameters are exploratory.
-2. Control effectiveness and costs are illustrative, not calibrated to vendor evaluations or NovaFlow operational measurements.
+2. Control effectiveness and costs are illustrative, not calibrated to vendor evaluations or operational measurements.
 3. Prevention efficacy changes successful incident frequency; exposure controls affect magnitude. Avoid double counting a prevented event as both frequency and magnitude reduction.
 4. Customer count is a proxy for exposure; sensitivity of exposed data, contractual terms, jurisdiction, and record counts are not explicitly modeled.
 5. Existing model's latent severity dependence, logistic indicator calibration, and other loss assumptions are retained; shifting exposure may affect the model's effective dependence and expected losses.

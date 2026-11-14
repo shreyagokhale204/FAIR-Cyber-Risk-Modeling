@@ -2,7 +2,7 @@
 
 ## 1. Objective, boundary, and FAIR framing
 
-The modeled loss event is **unauthorized access to NovaFlow's Salesforce customer data and exfiltration following compromise of a third-party SaaS vendor's credentials/OAuth tokens**. It is a confidentiality-only scenario, with a one-year financial horizon. A campaign that does not result in the modeled incident is not counted as a loss event. The model does not include service interruption, ransomware downtime, or other attack paths.
+The modeled loss event is **unauthorized access to the focal firm's Salesforce customer data and exfiltration following compromise of a third-party SaaS vendor's credentials/OAuth tokens**. It is a confidentiality-only scenario, with a one-year financial horizon. A campaign that does not result in the modeled incident is not counted as a loss event. The model does not include service interruption, ransomware downtime, or other attack paths.
 
 The conceptual FAIR decomposition is:
 
@@ -14,7 +14,7 @@ This identity holds for the modeled independent frequency/severity process. The 
 
 ## 2. Organization and valuation assumptions
 
-NovaFlow is hypothetical: $900M annual revenue, 3,200 employees, 3,000 enterprise customers, $300,000 annual revenue per customer, and a 70% contribution margin. The modeled one-year financial loss per churned customer or lost deal is **$210,000** ($300,000 × 70%). This is not a multi-year customer lifetime value estimate.
+A hypothetical B2B SaaS firm: $900M annual revenue, 3,200 employees, 3,000 enterprise customers, $300,000 annual revenue per customer, and a 70% contribution margin. The modeled one-year financial loss per churned customer or lost deal is **$210,000** ($300,000 × 70%). This is not a multi-year customer lifetime value estimate.
 
 ## 3. Loss event frequency
 
@@ -42,7 +42,7 @@ Illustrative inputs include a lognormal outside-counsel hourly rate (median $650
 
 ### 4.3 Fines, judgments, and settlements
 
-A regulatory fine is gated by regulatory engagement and a separately calibrated fine indicator; the amount conditional on a fine follows a lognormal distribution with median $1M and log-scale σ=0.80. A judgment/settlement indicator gates a lognormal amount with median $500k and σ=1.00. These are **illustrative loss distributions**, not estimates from NovaFlow cases. The overall target probability of a fine is 5% and of regulatory engagement is 10%; the fine target is calibrated jointly with its gate.
+A regulatory fine is gated by regulatory engagement and a separately calibrated fine indicator; the amount conditional on a fine follows a lognormal distribution with median $1M and log-scale σ=0.80. A judgment/settlement indicator gates a lognormal amount with median $500k and σ=1.00. These are **illustrative loss distributions**. The overall target probability of a fine is 5% and of regulatory engagement is 10%; the fine target is calibrated jointly with its gate.
 
 ### 4.4 Reputational loss
 

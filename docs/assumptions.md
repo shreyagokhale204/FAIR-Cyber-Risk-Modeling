@@ -1,11 +1,11 @@
-# NovaFlow — Model Assumptions
+# CRQ Model Assumptions
 
-This document records the main **illustrative baseline assumptions** for a hypothetical U.S. B2B SaaS company. It is not a statement of observed NovaFlow losses, real vendor pricing, or empirically validated control effectiveness. The authoritative parameter values and implementation logic remain in `config/model_config.py` and the `src/` modules.
+This document records the main **illustrative baseline assumptions** for a hypothetical U.S. B2B SaaS company. It is not a statement of observed losses, real vendor pricing, or empirically validated control effectiveness. The authoritative parameter values and implementation logic remain in `config/model_config.py` and the `src/` modules.
 
 ## Scenario and scope
 
-- **Organization:** NovaFlow, hypothetical SaaS provider; annual revenue $900 million; 3,200 employees; 3,000 enterprise customers.
-- **Attack path:** A third-party SaaS vendor is compromised; stolen credentials or OAuth tokens are used to access NovaFlow's Salesforce CRM and exfiltrate customer data.
+- **Organization:** A hypothetical B2B SaaS provider; annual revenue $900 million; 3,200 employees; 3,000 enterprise customers.
+- **Attack path:** A third-party SaaS vendor is compromised; stolen credentials or OAuth tokens are used to access the focal firm's Salesforce CRM and exfiltrate customer data.
 - **Modeled harm:** Confidentiality-related financial consequences. No ransomware downtime, outage, service interruption, or other attack paths.
 - **Horizon:** One year.
 - **Customer valuation:** $300,000 annual revenue per enterprise customer and 70% contribution margin; one-year lost contribution of $210,000 per lost customer or otherwise-won deal. This is **not** lifetime value.

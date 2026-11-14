@@ -2,7 +2,7 @@
 
 ## Executive summary
 
-NovaFlow is a hypothetical SaaS company facing a modeled confidentiality incident: a compromised third-party vendor's credentials/OAuth tokens enable Salesforce customer-data exfiltration. The FAIR-inspired Monte Carlo model estimates **annual loss exposure**, then evaluates five illustrative investments and their combined effects.
+ A hypothetical B2B SaaS company is facing a modeled confidentiality incident: a compromised third-party vendor's credentials/OAuth tokens enable Salesforce customer-data exfiltration. The FAIR-inspired Monte Carlo model estimates **annual loss exposure**, then evaluates five illustrative investments and their combined effects.
 
 ## Baseline simulation
 

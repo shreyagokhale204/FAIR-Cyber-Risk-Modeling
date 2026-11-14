@@ -25,7 +25,7 @@
 
 ## Modeling assumptions and limitations
 
-1. **Hypothetical firm and scenario.** NovaFlow is an illustrative B2B SaaS company; risk figures are not calibrated to a specific real company.
+1. **Hypothetical firm and scenario.** An illustrative B2B SaaS company; risk figures are not calibrated to a specific real company.
 2. **Limited evidence for frequency parameters.** Campaign intensity and success probabilities are assumptions. The Beta distribution describing variability *between campaigns* is distinct from the illustrative epistemic distribution over the unknown mean success probability.
 3. **Loss parameter evidence.** Churn, exposure, contribution margin, legal/regulatory consequences and response costs require empirical validation. The modeled contribution margin is a one-year horizon, not lifetime value.
 4. **Conditional dependence.** A common latent severity factor and severity/visibility-driven logistic models introduce dependence. Correlations are provisional latent-normal parameters, not observed dollar-loss correlations. Joint dependence stress changes multiple mechanisms simultaneously.

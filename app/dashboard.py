@@ -14,7 +14,7 @@ import streamlit as st
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="NovaFlow | Cyber Risk Intelligence",
+    page_title="Cyber Risk Intelligence",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -200,7 +200,7 @@ def optimize_portfolio(df, budget, objective):
 # 4. SIDEBAR
 # --------------------------------------------------
 
-st.sidebar.title("🛡️ NovaFlow")
+st.sidebar.title("🛡️ B2B SaaS Firm")
 st.sidebar.caption("Cyber Risk Decision Intelligence")
 st.sidebar.divider()
 
@@ -272,14 +272,14 @@ if page == "Executive Overview":
 
     st.title("Cyber Risk Intelligence")
     st.caption(
-        "NovaFlow | Third-party OAuth compromise "
+        "Hypothetical B2B SaaS Firm | Third-party OAuth compromise "
         "| Annual financial exposure"
     )
 
     st.info(
         "Decision scenario: An attacker compromises a "
         "third-party SaaS vendor, obtains OAuth credentials, "
-        "accesses NovaFlow's Salesforce CRM, and exfiltrates "
+        "accesses the focal firm's Salesforce CRM, and exfiltrates "
         "customer data. The model assumes no operational downtime."
     )
 
@@ -1289,7 +1289,7 @@ elif page == "Uncertainty & Assumptions":
         st.markdown("#### Scenario and boundaries")
         st.markdown(
             "An attacker compromises a third-party SaaS vendor, obtains usable OAuth credentials, "
-            "accesses NovaFlow's Salesforce CRM, and exfiltrates customer data. The modeled harm "
+            "accesses the focal firm's Salesforce CRM, and exfiltrates customer data. The modeled harm "
             "is a **confidentiality breach**. There is no service outage or operational downtime "
             "loss in this scenario. The reference organization has **3,000 enterprise customers**."
         )
