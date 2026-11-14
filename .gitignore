@@ -1,0 +1,36 @@
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Generated simulation results
+outputs/figures/*
+outputs/tables/*
+outputs/simulations/*
+
+# Keep empty output directories
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/simulations/.gitkeep
+
+# Keep the baseline simulation datasets required by the dashboard
+!outputs/simulations/dashboard_annual_losses.csv
+!outputs/simulations/dashboard_incident_losses.csv

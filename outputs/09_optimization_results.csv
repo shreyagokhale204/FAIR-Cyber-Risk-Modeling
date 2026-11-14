@@ -1,0 +1,55 @@
+cost_level,budget_usd,objective,portfolio_id,controls,annual_control_cost_usd,residual_aal_usd,total_expected_cost_usd,net_annual_benefit_usd
+low,0,Minimize residual risk,0,None,0,272950.17499108985,272950.17499108985,0.0
+low,0,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+low,25000,Minimize residual risk,9,"C1_oauth_governance, C5_ir_readiness",25000,216321.11038896974,241321.11038896974,31629.06460212011
+low,25000,Minimize total expected cost,1,C1_oauth_governance,15000,218360.1399928719,233360.1399928719,39590.03499821795
+low,50000,Minimize residual risk,7,"C1_oauth_governance, C3_saas_detection",45000,185606.11899394108,230606.11899394108,42344.05599714877
+low,50000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+low,75000,Minimize residual risk,27,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C5_ir_readiness",75000,161407.24574267096,236407.24574267096,36542.92924841889
+low,75000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+low,100000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",100000,147705.58222537913,247705.58222537913,25244.592765710724
+low,100000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+low,150000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",100000,147705.58222537913,247705.58222537913,25244.592765710724
+low,150000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+low,200000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",100000,147705.58222537913,247705.58222537913,25244.592765710724
+low,200000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+low,300000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",100000,147705.58222537913,247705.58222537913,25244.592765710724
+low,300000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+low,450000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",100000,147705.58222537913,247705.58222537913,25244.592765710724
+low,450000,Minimize total expected cost,6,"C1_oauth_governance, C2_least_privilege",35000,191929.86707368112,226929.86707368112,46020.30791740873
+central,0,Minimize residual risk,0,None,0,272950.17499108985,272950.17499108985,0.0
+central,0,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+central,25000,Minimize residual risk,5,C5_ir_readiness,25000,270401.38798621215,295401.38798621215,-22451.212995122303
+central,25000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+central,50000,Minimize residual risk,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,50000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,75000,Minimize residual risk,6,"C1_oauth_governance, C2_least_privilege",65000,191929.86707368112,256929.86707368112,16020.307917408732
+central,75000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,100000,Minimize residual risk,7,"C1_oauth_governance, C3_saas_detection",90000,185606.11899394108,275606.1189939411,-2655.9440028512327
+central,100000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,150000,Minimize residual risk,27,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C5_ir_readiness",150000,161407.24574267096,311407.24574267096,-38457.07075158111
+central,150000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,200000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",200000,147705.58222537913,347705.5822253791,-74755.40723428928
+central,200000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,300000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",200000,147705.58222537913,347705.5822253791,-74755.40723428928
+central,300000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+central,450000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",200000,147705.58222537913,347705.5822253791,-74755.40723428928
+central,450000,Minimize total expected cost,1,C1_oauth_governance,30000,218360.1399928719,248360.1399928719,24590.034998217947
+high,0,Minimize residual risk,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,0,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,25000,Minimize residual risk,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,25000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,50000,Minimize residual risk,5,C5_ir_readiness,50000,270401.38798621215,320401.38798621215,-47451.2129951223
+high,50000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,75000,Minimize residual risk,1,C1_oauth_governance,75000,218360.1399928719,293360.1399928719,-20409.965001782053
+high,75000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,100000,Minimize residual risk,1,C1_oauth_governance,75000,218360.1399928719,293360.1399928719,-20409.965001782053
+high,100000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,150000,Minimize residual risk,9,"C1_oauth_governance, C5_ir_readiness",125000,216321.11038896974,341321.11038896977,-68370.93539787989
+high,150000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,200000,Minimize residual risk,7,"C1_oauth_governance, C3_saas_detection",195000,185606.11899394108,380606.1189939411,-107655.94400285123
+high,200000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,300000,Minimize residual risk,16,"C1_oauth_governance, C2_least_privilege, C3_saas_detection",285000,163140.38701262893,448140.38701262895,-175190.21202153908
+high,300000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
+high,450000,Minimize residual risk,31,"C1_oauth_governance, C2_least_privilege, C3_saas_detection, C4_data_protection, C5_ir_readiness",445000,147705.58222537913,592705.5822253791,-319755.4072342893
+high,450000,Minimize total expected cost,0,None,0,272950.17499108985,272950.17499108985,0.0
