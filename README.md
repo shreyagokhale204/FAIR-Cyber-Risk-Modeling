@@ -92,31 +92,31 @@ Interactive assumption experiments **do not automatically recalculate** the prec
 The interactive Streamlit dashboard provides cyber risk analysis, financial loss simulations, security control evaluation, and investment optimization.
 
 ### Executive Overview
-![Executive Overview](dashboard_screenshots/Executive Overview.png)
+![Executive Overview](dashboard_screenshots/ExecutiveOverview.png)
 
 ### Cyber Risk Analysis
-![Cyber Risk Analysis - Metrics](dashboard_screenshots/Cyber Risk Analysis - Metrics.png)
+![Cyber Risk Analysis - Metrics](dashboard_screenshots/CyberRiskAnalysis_Metrics.png)
 
-![Cyber Risk Analysis - LEC](dashboard_screenshots/Cyber Risk Analysis - LEC.png)
+![Cyber Risk Analysis - LEC](dashboard_screenshots/CyberRiskAnalysis_LEC.png)
 
-![Cyber Risk Analysis - Loss and Incident Distributions](dashboard_screenshots/Cyber Risk Analysis - Loss and Incident Distributions.png)
+![Cyber Risk Analysis - Loss and Incident Distributions](dashboard_screenshots/CyberRiskAnalysis_LossAndIncidentDistributions.png)
 
-![Cyber Risk Analysis - Loss Composition](dashboard_screenshots/Cyber Risk Analysis - Loss Composition.png)
+![Cyber Risk Analysis - Loss Composition](dashboard_screenshots/CyberRiskAnalysis_LossComposition.png)
 
 ### Security Controls
-![Security Controls - Risk Reduction](dashboard_screenshots/Security Controls - Risk Reduction.png)
+![Security Controls - Risk Reduction](dashboard_screenshots/SecurityControls_RiskReduction.png)
 
-![Security Controls - Net Annual Benefit](dashboard_screenshots/Security Controls - Net Annual Benefit.png)
+![Security Controls - NetAnnualBenefit](dashboard_screenshots/SecurityControls_NetAnnualBenefit.png)
 
 ### Investment Optimizer
-![Investment Optimizer](dashboard_screenshots/Investment Optimizer.png)
+![Investment Optimizer](dashboard_screenshots/InvestmentOptimizer.png)
 
 ### Uncertainty & Assumptions
-![Uncertainty and Assumptions - Change Model Assumptions](dashboard_screenshots/Uncertainty and Assumptions - Change Model Assumptions.png)
+![Uncertainty and Assumptions - Change Model Assumptions](dashboard_screenshots/UncertaintyAndAssumptions_ChangeModelAssumptions.png)
 
-![Uncertainty and Assumptions - Parameter Uncertainty](dashboard_screenshots/Uncertainty and Assumptions - Parameter Uncertainty.png)
+![Uncertainty and Assumptions - Parameter Uncertainty](dashboard_screenshots/UncertaintyAndAssumptions_ParameterUncertainty.png)
 
-![Uncertainty and Assumptions - Control Sensitivity](dashboard_screenshots/Uncertainty and Assumptions - Control Sensitivity.png)
+![Uncertainty and Assumptions - Control Sensitivity](dashboard_screenshots/UncertaintyAndAssumptions_ControlSensitivity.png)
 
 ## Methodology at a glance
 
