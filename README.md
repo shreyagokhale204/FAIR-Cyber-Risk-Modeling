@@ -87,6 +87,37 @@ The Streamlit dashboard provides five sections:
 
 Interactive assumption experiments **do not automatically recalculate** the precomputed security investment optimization results.
 
+## Dashboard Preview
+
+The interactive Streamlit dashboard provides cyber risk analysis, financial loss simulations, security control evaluation, and investment optimization.
+
+### Executive Overview
+![Executive Overview](dashboard_screenshots/Executive Overview.png)
+
+### Cyber Risk Analysis
+![Cyber Risk Analysis - Metrics](dashboard_screenshots/Cyber Risk Analysis - Metrics.png)
+
+![Cyber Risk Analysis - LEC](dashboard_screenshots/Cyber Risk Analysis - LEC.png)
+
+![Cyber Risk Analysis - Loss and Incident Distributions](dashboard_screenshots/Cyber Risk Analysis - Loss and Incident Distributions.png)
+
+![Cyber Risk Analysis - Loss Composition](dashboard_screenshots/Cyber Risk Analysis - Loss Composition.png)
+
+### Security Controls
+![Security Controls - Risk Reduction](dashboard_screenshots/Security Controls - Risk Reduction.png)
+
+![Security Controls - Net Annual Benefit](dashboard_screenshots/Security Controls - Net Annual Benefit.png)
+
+### Investment Optimizer
+![Investment Optimizer](dashboard_screenshots/Investment Optimizer.png)
+
+### Uncertainty & Assumptions
+![Uncertainty and Assumptions - Change Model Assumptions](dashboard_screenshots/Uncertainty and Assumptions - Change Model Assumptions.png)
+
+![Uncertainty and Assumptions - Parameter Uncertainty](dashboard_screenshots/Uncertainty and Assumptions - Parameter Uncertainty.png)
+
+![Uncertainty and Assumptions - Control Sensitivity](dashboard_screenshots/Uncertainty and Assumptions - Control Sensitivity.png)
+
 ## Methodology at a glance
 
 1. **Frequency:** Campaign arrivals follow `Poisson(λ = 3/year)`. Each campaign draws a success probability of the focal firm being hit in the campaign from `Beta(0.36, 4.48)` and then a Bernoulli outcome.
