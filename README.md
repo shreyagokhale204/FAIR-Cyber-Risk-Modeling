@@ -122,7 +122,7 @@ Open the local URL shown by Streamlit (typically `http://localhost:8501`). To st
 ### Expected layout
 
 ```text
-Fair-CRQ/
+FAIR-Cyber-Risk-Modeling
 ├── app/
 │   └── dashboard.py
 ├── config/
